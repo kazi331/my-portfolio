@@ -78,6 +78,12 @@
         letter-spacing: 1px;
       }
     }
+    a.works-link {
+      &:after {
+        content: 'WORKS';
+        letter-spacing: 1px;
+      }
+    }
     a.active {
       svg {
         color: #ffd700;
