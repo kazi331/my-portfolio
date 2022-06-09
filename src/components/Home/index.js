@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import logoTitle from '../../assets/images/logo-s.png';
 import resume from '../../assets/Kazi-Shariful-Islam-Junior-React-Developer-resume.pdf';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
+import Logo from './Logo';
 
 const Home = () => {
     class DownloadLink extends React.Component {
@@ -17,6 +18,12 @@ const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['h', 'a', 'r', 'i', 'f', 'u', 'l', ' ', 'I', 's', 'l', 'a', 'm']
     const jobArray = ['R', 'e', 'a', 'c', 't', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLetterClass('text-animate-hover')
+        }, 4500)
+    }, [])
 
     return (
         <div className='container home-page'>
@@ -38,6 +45,7 @@ const Home = () => {
                 {/* <a href={resume} className='flat-button'>DOWNLOAD RESUME</a> */}
                 {/* <a href="https://drive.google.com/file/d/19B_izzj-fUEHGfNSsSmRvDDOFnwEfWzl/view?usp=sharing" className='flat-button'>DOWNLOAD RESUME</a> */}
             </div>
+            <Logo />
         </div>
     );
 };
