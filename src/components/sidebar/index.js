@@ -3,7 +3,7 @@ import { faEnvelope, faHome, faTasks, faUser } from '@fortawesome/free-solid-svg
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link, NavLink } from 'react-router-dom';
 import logoS from '../../assets/images/logo-s.png';
-import logoSubtitle from '../../assets/images/logo_sub.png';
+import logoSubtitle from '../../assets/images/LogoMakr-2HPWO8.png';
 import './index.scss';
 
 const Sidebar = () => {

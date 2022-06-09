@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Loader from 'react-loaders';
 import { Link } from 'react-router-dom';
 import logoTitle from '../../assets/images/logo-s.png';
 import resume from '../../assets/Kazi-Shariful-Islam-Junior-React-Developer-resume.pdf';
@@ -26,27 +27,30 @@ const Home = () => {
     }, [])
 
     return (
-        <div className='container home-page'>
-            <div className="text-zone">
-                <h1>
-                    <span className={`${letterClass}`}>H</span>
-                    <span className={`${letterClass} _12`}>i,</span>
-                    <br />
-                    <span className={`${letterClass} _13`}>I'</span>
-                    <span className={`${letterClass} _14`}>m</span>
-                    <img src={logoTitle} alt="Developer" />
-                    <AnimatedLetters letterClass={letterClass} strArr={nameArray} idx={15} />
-                    <br />
-                    <AnimatedLetters letterClass={letterClass} strArr={jobArray} idx={28} />
-                </h1>
-                <h2>Frontend Developer / React Expert</h2>
-                <DownloadLink className="flat-button" src={resume}>DOWNLOAD RESUME</DownloadLink>
-                <Link to="/contact" className='flat-button'>CONTACT ME</Link>
-                {/* <a href={resume} className='flat-button'>DOWNLOAD RESUME</a> */}
-                {/* <a href="https://drive.google.com/file/d/19B_izzj-fUEHGfNSsSmRvDDOFnwEfWzl/view?usp=sharing" className='flat-button'>DOWNLOAD RESUME</a> */}
+        <>
+            <div className='container home-page'>
+                <div className="text-zone">
+                    <h1>
+                        <span className={`${letterClass}`}>H</span>
+                        <span className={`${letterClass} _12`}>i,</span>
+                        <br />
+                        <span className={`${letterClass} _13`}>I'</span>
+                        <span className={`${letterClass} _14`}>m</span>
+                        <img src={logoTitle} alt="Developer" />
+                        <AnimatedLetters letterClass={letterClass} strArr={nameArray} idx={15} />
+                        <br />
+                        <AnimatedLetters letterClass={letterClass} strArr={jobArray} idx={28} />
+                    </h1>
+                    <h2>Frontend Developer / React Expert</h2>
+                    <DownloadLink className="flat-button" src={resume}>DOWNLOAD RESUME</DownloadLink>
+                    <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+                    {/* <a href={resume} className='flat-button'>DOWNLOAD RESUME</a> */}
+                    {/* <a href="https://drive.google.com/file/d/19B_izzj-fUEHGfNSsSmRvDDOFnwEfWzl/view?usp=sharing" className='flat-button'>DOWNLOAD RESUME</a> */}
+                </div>
+                <Logo />
             </div>
-            <Logo />
-        </div>
+            <Loader type="pacman" />
+        </>
     );
 };
 
