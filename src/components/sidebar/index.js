@@ -1,4 +1,4 @@
-import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link, NavLink } from 'react-router-dom';
@@ -28,13 +28,16 @@ const Sidebar = () => {
             </nav>
             {/* social links  */}
             <ul>
-                <li><a target="_blank" rel="noreferrer" href="#">
+                <li><a target="_blank" rel="noreferrer" href="https://linkedin.com/in/kazi331">
                     <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
                 </a></li>
-                <li><a target="_blank" rel="noreferrer" href="#">
+                <li><a target="_blank" rel="noreferrer" href="https://github.com/kazi331">
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                 </a></li>
-                <li><a target="_blank" rel="noreferrer" href="#">
+                <li><a target="_blank" rel="noreferrer" href="https://skype.com">
+                    <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
+                </a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://facebook.com/kazi331">
                     <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" />
                 </a></li>
             </ul>
