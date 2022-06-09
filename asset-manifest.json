@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.33af9a05.css",
-    "main.js": "/my-portfolio/static/js/main.48bf3f03.js",
+    "main.css": "/my-portfolio/static/css/main.37309651.css",
+    "main.js": "/my-portfolio/static/js/main.d8573985.js",
     "static/js/787.3f5b6360.chunk.js": "/my-portfolio/static/js/787.3f5b6360.chunk.js",
     "static/media/Kazi-Shariful-Islam-Junior-React-Developer-resume.pdf": "/my-portfolio/static/media/Kazi-Shariful-Islam-Junior-React-Developer-resume.fd7529473abf6e5eb6f3.pdf",
     "static/media/helvetica-neu.ttf": "/my-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -10,12 +10,12 @@
     "static/media/logo-s.png": "/my-portfolio/static/media/logo-s.bfc9f81846bda5218dab.png",
     "static/media/CoolveticaRg-Regular.woff2": "/my-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.33af9a05.css.map": "/my-portfolio/static/css/main.33af9a05.css.map",
-    "main.48bf3f03.js.map": "/my-portfolio/static/js/main.48bf3f03.js.map",
+    "main.37309651.css.map": "/my-portfolio/static/css/main.37309651.css.map",
+    "main.d8573985.js.map": "/my-portfolio/static/js/main.d8573985.js.map",
     "787.3f5b6360.chunk.js.map": "/my-portfolio/static/js/787.3f5b6360.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33af9a05.css",
-    "static/js/main.48bf3f03.js"
+    "static/css/main.37309651.css",
+    "static/js/main.d8573985.js"
   ]
 }
